@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 
 
@@ -6,17 +7,6 @@ public class Program
 {
     public static void Main()
     {
-        int number;
 
-        number = Int32.Parse(Console.ReadLine());
-
-        if(number % 2 == 0)
-        {
-            Console.WriteLine(number + " is even");
-        }
-        else
-        {
-            Console.WriteLine(number + " is odd");
-        }
     }
 }
