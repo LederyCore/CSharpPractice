@@ -17,12 +17,6 @@ public class Programmers181943
             my[i + s] = overwrite[i];
         }
 
-        for (int i = 0; i < my.Length; i++)
-        {
-            result = result + my[i];
-        }
-
-
-        return result;
+        return new string(my);
     }
 }
